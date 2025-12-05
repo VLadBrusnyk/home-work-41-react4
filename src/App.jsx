@@ -4,12 +4,12 @@ import ErrorBoundary from './components/ErrorBoundary';
 import './App.css';
 
 // Функція, яка повертає Promise із затримкою (симуляція асинхронного запиту)
-function fetchMessage(delay = 2000) {
+function fetchMessage(delay = 3000) {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
         id: 1,
-        content: 'Це повідомлення було отримано з Promise за 2 секунди.',
+        content: 'Це повідомлення було отримано з Promise за 3 секунди.',
         timestamp: new Date().toLocaleString('uk-UA'),
       });
     }, delay);
