@@ -1,0 +1,71 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #646cff;
+  margin-bottom: 0.5rem;
+}
+
+.loading {
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.message-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  margin: 2rem 0;
+}
+
+.message-card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.message-card p {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.message-card small {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.error-container {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  margin: 2rem 0;
+}
+
+.error-container h2 {
+  margin: 0 0 1rem 0;
+}
+
+.error-container button {
+  background: white;
+  color: #ee5a5a;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: transform 0.2s;
+}
+
+.error-container button:hover {
+  transform: scale(1.05);
+}
