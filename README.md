@@ -22,28 +22,7 @@ src/
 - **Хук `use()`** - новий React 19 хук для роботи з Promise
 - **Suspense** - відображення fallback під час завантаження даних
 - **Error Boundary** - обробка помилок при завантаженні
-
-## Як працює use() хук
-
-```jsx
-import { use } from "react";
-
-function MessageComponent({ messagePromise }) {
-  // use() автоматично "розпаковує" Promise
-  const message = use(messagePromise);
-  return <div>{message.content}</div>;
-}
-```
-
-## Запуск проекту
-
-```bash
-# Встановлення залежностей
-npm install
-
-# Запуск в режимі розробки
-npm run dev
-```
+  
 
 ## Технології
 
